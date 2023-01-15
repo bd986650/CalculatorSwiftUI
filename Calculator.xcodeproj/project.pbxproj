@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1ADFA9F22973141800585091 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFA9F12973141800585091 /* CalculatorApp.swift */; };
-		1ADFA9F42973141800585091 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFA9F32973141800585091 /* ContentView.swift */; };
-		1ADFA9F62973141A00585091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADFA9F52973141A00585091 /* Assets.xcassets */; };
-		1ADFA9F92973141A00585091 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADFA9F82973141A00585091 /* Preview Assets.xcassets */; };
+		1ADFAA89297316CC00585091 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFAA7A297316CB00585091 /* ViewModel.swift */; };
+		1ADFAA8A297316CC00585091 /* CalculatorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFAA7D297316CB00585091 /* CalculatorButtonStyle.swift */; };
+		1ADFAA8B297316CC00585091 /* DetailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFAA7F297316CB00585091 /* DetailButton.swift */; };
+		1ADFAA8C297316CC00585091 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFAA80297316CB00585091 /* CalculatorView.swift */; };
+		1ADFAA8D297316CC00585091 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFAA82297316CB00585091 /* Constants.swift */; };
+		1ADFAA8E297316CC00585091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADFAA83297316CB00585091 /* Assets.xcassets */; };
+		1ADFAA8F297316CC00585091 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFAA84297316CB00585091 /* CalculatorApp.swift */; };
+		1ADFAA952973186500585091 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFAA912973186500585091 /* Calculator.swift */; };
+		1ADFAA962973186500585091 /* ArithmeticOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFAA922973186500585091 /* ArithmeticOperation.swift */; };
+		1ADFAA972973186500585091 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFAA932973186500585091 /* ButtonType.swift */; };
+		1ADFAA982973186500585091 /* Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFAA942973186500585091 /* Digit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1ADFA9EE2973141800585091 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ADFA9F12973141800585091 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
-		1ADFA9F32973141800585091 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1ADFA9F52973141A00585091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1ADFA9F82973141A00585091 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ADFAA7A297316CB00585091 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1ADFAA7D297316CB00585091 /* CalculatorButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyle.swift; sourceTree = "<group>"; };
+		1ADFAA7F297316CB00585091 /* DetailButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailButton.swift; sourceTree = "<group>"; };
+		1ADFAA80297316CB00585091 /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		1ADFAA82297316CB00585091 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1ADFAA83297316CB00585091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ADFAA84297316CB00585091 /* CalculatorApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
+		1ADFAA912973186500585091 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		1ADFAA922973186500585091 /* ArithmeticOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArithmeticOperation.swift; sourceTree = "<group>"; };
+		1ADFAA932973186500585091 /* ButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		1ADFAA942973186500585091 /* Digit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +65,68 @@
 		1ADFA9F02973141800585091 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				1ADFA9F12973141800585091 /* CalculatorApp.swift */,
-				1ADFA9F32973141800585091 /* ContentView.swift */,
-				1ADFA9F52973141A00585091 /* Assets.xcassets */,
-				1ADFA9F72973141A00585091 /* Preview Content */,
+				1ADFAA81297316CB00585091 /* Application */,
+				1ADFAA902973186500585091 /* Model */,
+				1ADFAA7B297316CB00585091 /* View */,
+				1ADFAA79297316CB00585091 /* ViewModel */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
 		};
-		1ADFA9F72973141A00585091 /* Preview Content */ = {
+		1ADFAA79297316CB00585091 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				1ADFA9F82973141A00585091 /* Preview Assets.xcassets */,
+				1ADFAA7A297316CB00585091 /* ViewModel.swift */,
 			);
-			path = "Preview Content";
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1ADFAA7B297316CB00585091 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1ADFAA80297316CB00585091 /* CalculatorView.swift */,
+				1ADFAA7C297316CB00585091 /* Style */,
+				1ADFAA7E297316CB00585091 /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1ADFAA7C297316CB00585091 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				1ADFAA7D297316CB00585091 /* CalculatorButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		1ADFAA7E297316CB00585091 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1ADFAA7F297316CB00585091 /* DetailButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1ADFAA81297316CB00585091 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1ADFAA83297316CB00585091 /* Assets.xcassets */,
+				1ADFAA82297316CB00585091 /* Constants.swift */,
+				1ADFAA84297316CB00585091 /* CalculatorApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1ADFAA902973186500585091 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1ADFAA912973186500585091 /* Calculator.swift */,
+				1ADFAA922973186500585091 /* ArithmeticOperation.swift */,
+				1ADFAA932973186500585091 /* ButtonType.swift */,
+				1ADFAA942973186500585091 /* Digit.swift */,
+			);
+			name = Model;
+			path = ../../TrainingProject/TrainingProject/Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADFA9F92973141A00585091 /* Preview Assets.xcassets in Resources */,
-				1ADFA9F62973141A00585091 /* Assets.xcassets in Resources */,
+				1ADFAA8E297316CC00585091 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +198,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADFA9F42973141800585091 /* ContentView.swift in Sources */,
-				1ADFA9F22973141800585091 /* CalculatorApp.swift in Sources */,
+				1ADFAA8B297316CC00585091 /* DetailButton.swift in Sources */,
+				1ADFAA982973186500585091 /* Digit.swift in Sources */,
+				1ADFAA972973186500585091 /* ButtonType.swift in Sources */,
+				1ADFAA89297316CC00585091 /* ViewModel.swift in Sources */,
+				1ADFAA952973186500585091 /* Calculator.swift in Sources */,
+				1ADFAA8C297316CC00585091 /* CalculatorView.swift in Sources */,
+				1ADFAA8A297316CC00585091 /* CalculatorButtonStyle.swift in Sources */,
+				1ADFAA8F297316CC00585091 /* CalculatorApp.swift in Sources */,
+				1ADFAA8D297316CC00585091 /* Constants.swift in Sources */,
+				1ADFAA962973186500585091 /* ArithmeticOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,15 +335,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = 4M8598KG4C;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +351,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qwoti.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,15 +367,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = 4M8598KG4C;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +383,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qwoti.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
