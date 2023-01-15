@@ -6,8 +6,6 @@
 <br>
 <br>
 
-Foodee is an app for food lovers build in SwiftUI. The YT tutorials can be found on my [channel](https://www.youtube.com/watch?v=-DSdeMlxlis&t=56s&ab_channel=GaryTokman). Figma and bonus video on my [Patreon](https://www.patreon.com/6ary) page. <br>
-
 ## About
 * Using Combine + SwiftUI
 * UI and Figma overview
