@@ -9,5 +9,5 @@
 
 ## Get Started
 
-1. Clone the repo `git clone https://github.com/gtokman/FoodeeApp.git`
+1. Clone the repo `git clone https://github.com/qwotic/CalculatorSwiftUI.git`
 2. Open the app in the latest version of Xcode.
